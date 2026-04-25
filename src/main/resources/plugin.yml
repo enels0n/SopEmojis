@@ -1,0 +1,28 @@
+name: SopEmojis
+version: ${project.version}
+main: net.enelson.sopemojis.SopEmojis
+api-version: "1.16"
+authors: [E_NeLsOn]
+depend: [SopLib]
+softdepend: [LuckPerms]
+description: Chat emoji plugin with resource pack generation for legacy servers
+
+commands:
+  sopemojis:
+    description: Main command for SopEmojis
+    usage: /sopemojis <reload|generatepack|list|debugrender>
+    aliases: [semojis]
+
+permissions:
+  sopemojis.admin:
+    description: Full admin access to SopEmojis
+    default: op
+  sopemojis.use.*:
+    description: Access to all SopEmojis entries
+    default: false
+  semojis.admin:
+    description: Backward-compatible admin permission alias
+    default: op
+  semojis.use.*:
+    description: Backward-compatible wildcard permission alias
+    default: false

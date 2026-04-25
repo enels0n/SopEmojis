@@ -1,0 +1,18 @@
+emojis:
+  spinner:
+    type: FONT
+    texture: "spinner.png"
+    trigger: ":spinner:"
+    char: "\uE001"
+    permission: "sopemojis.use.spinner"
+    enabled: true
+    height: 10
+    ascent: 8
+
+  portal:
+    type: SPRITE
+    trigger: ":portal:"
+    sprite: "portal"
+    texture: "portal.png"
+    permission: "sopemojis.use.portal"
+    enabled: true
